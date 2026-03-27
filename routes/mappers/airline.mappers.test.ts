@@ -35,7 +35,6 @@ test("should map all airline data correctly", () => {
 test("should return empty array when list is empty", () => {
   // given
   const mockAirlines: Airline[] = [];
-
   // when
   const result: AirlineResponse[] = mapToAirlineList(mockAirlines);
 
