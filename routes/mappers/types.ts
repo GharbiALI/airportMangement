@@ -3,4 +3,8 @@ export interface AirplaneResponse {
     status: string;
     currentLocation: string;
   }
-  
+
+  export interface AirlineResponse {
+    name: string;
+    country: string;
+  }
