@@ -9,6 +9,7 @@ test("should map ticket data correctly", () => {
     flightId: "flight_456",
     seatNumber: "12A",
     price: 350,
+    status: "confirmed"
   };
 
   // when

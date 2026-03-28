@@ -18,9 +18,14 @@ export interface FlightResponse {
 }
 
 export interface TicketResponse {
-  passengerId: string;
-  flightId: string;
+
   seatNumber: string;
   price: number;
   status: string;
+}
+export interface PassengerResponse {
+  firstName: string;
+  lastName: string;
+  email: string;
+  passportNumber: string;
 }

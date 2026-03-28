@@ -3,8 +3,6 @@ import { TicketResponse } from "./types";
 
 export const mapToTicketResponse = (ticket: Ticket): TicketResponse => {
   return {
-    passengerId: ticket.passengerId ?? null,
-    flightId: ticket.flightId ?? null,
     seatNumber: ticket.seatNumber ?? null,
     price: ticket.price ?? null,
     status: ticket.status ?? null,
