@@ -8,3 +8,11 @@ export interface AirplaneResponse {
     name: string;
     country: string;
   }
+
+  export interface FlightResponse {
+    departure: string;
+    destination: string;
+    departureTime: Date;
+    arrivalTime: Date;
+    status: string;
+  }
